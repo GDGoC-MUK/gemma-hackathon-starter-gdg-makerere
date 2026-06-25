@@ -1,86 +1,63 @@
 # Build with Gemma Hackathon Starter Kit
 
-Welcome to the official starter kit for the **Build with Gemma Hackathon – GDG on Campus Makerere**.
+Welcome to the Build with Gemma Hackathon starter template 🚀
 
-This repository is designed to help you quickly start building AI applications using Google's Gemma models for Kaggle hackathons.
-
----
-
-## 🚀 Quick Start
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR_ORG/gemma-hackathon-starter.git
-cd gemma-hackathon-starter
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the starter app
-
-```bash
-python app.py
-```
+This repository helps you quickly build AI applications using Google's Gemma models. It provides a simple structure for building apps, experimenting with prompts, and creating your hackathon submission.
 
 ---
 
-## 🤖 What you will build
+## 🚀 What you will build
 
-In this hackathon, you will build AI applications using **Gemma models** that solve real-world problems in:
+You will create an AI-powered application using Gemma that can:
 
-* Education
-* Agriculture
-* Healthcare
-* Local languages
-* Accessibility
-* Community challenges
+* Understand user input
+* Generate helpful responses
+* Solve a real-world problem (education, agriculture, healthcare, etc.)
 
 ---
 
-## 🧠 Suggested Use of Gemma
+## 📂 Project Structure
 
-You can use Gemma for:
-
-* Chat-based assistants
-* AI agents
-* RAG systems (retrieval augmented generation)
-* Multimodal applications
-* Offline or lightweight AI tools
+* `app.py` → Main application entry point
+* `notebook.ipynb` → Experimentation notebook for Gemma models
+* `prompts/` → Prompt engineering templates
+* `data/` → Sample inputs for testing
+* `demo/` → Example outputs for inspiration
 
 ---
 
-## 📁 Project Structure
+## 🧠 How to use
 
-* `app.py` → main starter application
-* `prompts/` → base prompts for Gemma
-* `data/` → sample inputs
-* `demo/` → example outputs
+1. Clone this repository
+2. Install dependencies:
+
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run the app:
+
+   ```
+   python app.py
+   ```
+4. Modify prompts and experiment with Gemma models
 
 ---
 
-## 🏁 Submission Requirements
+## 💡 Hackathon Tip
 
-You will submit:
+Focus on:
 
-* Kaggle Writeup
+* Real-world impact
+* Clear use of Gemma
+* Working prototype (not just idea)
+
+---
+
+## 📌 Submission Requirements
+
 * Working demo
-* GitHub repository
-* Demo video
+* Kaggle writeup
+* GitHub repository link
+* Short demo video
 
----
-
-## 💡 Tips for Winning
-
-* Use Gemma meaningfully (not just API calls)
-* Focus on real-world impact
-* Keep your UI simple but functional
-* Explain your reasoning clearly in Kaggle writeup
-
----
-
-Good luck and build something impactful 🚀
+Good luck and build something impactful 🌍

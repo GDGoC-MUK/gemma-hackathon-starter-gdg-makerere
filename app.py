@@ -1,13 +1,17 @@
-import gradio as gr
+import streamlit as st
 
-def generate_response(prompt):
-    return f"Gemma response placeholder for: {prompt}"
+st.set_page_config(page_title="Gemma Hackathon Starter", layout="centered")
 
-demo = gr.Interface(
-    fn=generate_response,
-    inputs="text",
-    outputs="text",
-    title="Gemma Hackathon Starter"
-)
+st.title("🚀 Gemma Hackathon Starter App")
 
-demo.launch()
+st.write("This is a simple starter app for building with Gemma models.")
+
+user_input = st.text_area("Enter your prompt:")
+
+if st.button("Generate Response"):
+if user_input.strip():
+st.success("This is a placeholder response from Gemma.")
+st.write("You entered:")
+st.write(user_input)
+else:
+st.warning("Please enter a prompt first.")

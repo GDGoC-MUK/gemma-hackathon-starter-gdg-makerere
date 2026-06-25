@@ -1,1 +1,6 @@
+1. Explain how AI can help farmers in Uganda
+2. Build a chatbot for students learning math
+3. Create a health assistant for rural communities
+4. Translate English text into Luganda
+5. Suggest business ideas for youth in Kampala
 
